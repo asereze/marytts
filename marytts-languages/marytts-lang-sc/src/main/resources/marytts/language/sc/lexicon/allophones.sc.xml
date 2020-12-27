@@ -1,0 +1,82 @@
+<allophones name="sampa" xml:lang="sc" features="vlng vheight vfront vrnd ctype cplace cvox long" >
+
+	<silence ph="_" />
+
+	<!-- vlng:(s,l) vheight:[1,6]; vfront:[1,5]; vrnd:(-,+); -->
+	<!--ctype:(s, f, a, n, l, r) - consonant type: stop fricative affricative  nasal liquid approximant -->
+	<!--cplace:(l, a, p, b, d, v) - place of articulation: bilabial alveolar palatal labio-dental dental velar -->
+	<!--cvox:(-,+); long:(-,+) -->
+
+	<!-- Vowels -->
+	<vowel ph="ii" vlng="l" vheight="1" vfront="1" vrnd="-"/> <!-- anteriore arta [iː] -->
+	<vowel ph="i" vlng="s" vheight="1" vfront="1" vrnd="-"/> <!-- anteriore arta [i] -->
+	<vowel ph="ih" vlng="s" vheight="1" vfront="1" vrnd="-"/> <!-- anteriore arta [ĭ], [ⁱ] -->
+	<vowel ph="ee" vlng="l" vheight="3" vfront="1" vrnd="-"/> <!-- anteriore mesu-arta [eː], [eˑ] -->
+	<vowel ph="e" vlng="s" vheight="3" vfront="1" vrnd="-"/> <!-- anteriore mesu-arta [e] -->
+	<vowel ph="EE" vlng="l" vheight="5" vfront="1" vrnd="-"/> <!-- anteriore semi-bassa [ɛː], [ɛˑ] -->
+	<vowel ph="E" vlng="s" vheight="5" vfront="1" vrnd="-"/> <!-- anteriore semi-bassa [ɛ] -->
+	<vowel ph="Eh" vlng="s" vheight="5" vfront="1" vrnd="-"/> <!-- anteriore semi-bassa [ɛ̆], [ᵋ] -->
+	<vowel ph="aa" vlng="l" vheight="6" vfront="3" vrnd="-"/> <!-- tzentrale bassa [aː], [aˑ] -->
+	<vowel ph="a" vlng="s" vheight="6" vfront="3" vrnd="-"/> <!-- tzentrale bassa [a] -->
+	<vowel ph="ah" vlng="s" vheight="6" vfront="3" vrnd="-"/> <!-- tzentrale bassa [ă], [ᵃ] -->
+	<vowel ph="OO" vlng="l" vheight="5" vfront="5" vrnd="+"/> <!-- posteriore semi-bassa labializada [ɔː], [ɔˑ] -->
+	<vowel ph="O" vlng="s" vheight="5" vfront="5" vrnd="+"/> <!-- posteriore semi-bassa labializada [ɔ] -->
+	<vowel ph="Oh" vlng="s" vheight="5" vfront="5" vrnd="+"/> <!-- posteriore semi-bassa labializada [ɔ̆], [ᵓ] -->
+	<vowel ph="oo" vlng="l" vheight="3" vfront="5" vrnd="+"/> <!-- posteriore mesu-arta labializada [oː], [oˑ] -->
+	<vowel ph="o" vlng="s" vheight="3" vfront="5" vrnd="+"/> <!-- posteriore mesu-arta labializada [o] -->
+	<vowel ph="uu" vlng="l" vheight="1" vfront="5" vrnd="+"/> <!-- posteriore arta labializada [uː], [uˑ] -->
+	<vowel ph="u" vlng="s" vheight="1" vfront="5" vrnd="+"/> <!-- posteriore arta labializada [u] -->
+	<vowel ph="uh" vlng="s" vheight="1" vfront="5" vrnd="+"/> <!-- posteriore arta labializada [ŭ], [ᵘ] -->
+
+	<!-- Nasal consonants -->
+	<consonant ph="m" ctype="n" cplace="b" cvox="+" long="-" /> <!-- nasale	bilabiale [m] -->
+	<consonant ph="mm" ctype="n" cplace="b" cvox="+" long="+" /> <!-- nasale bilabiale [mm], [mː] -->
+	<consonant ph="n" ctype="n" cplace="a" cvox="-+" long="-" /> <!-- nasale alveolare/dentale [n], [n̪ -->
+	<consonant ph="n1" ctype="n" cplace="l" cvox="+" long="-" /> <!-- nasale labiodentale [ɱ] -->
+	<consonant ph="n2" ctype="n" cplace="p" cvox="+" long="-" /> <!-- nasale postalveopalatale [n̙] -->
+	<consonant ph="n3" ctype="n" cplace="a" cvox="+" long="-" /> <!-- nasale postalveolare [ɳ] -->
+	<consonant ph="n4" ctype="n" cplace="v" cvox="+" long="-" /> <!-- nasale velare [ŋ] -->
+	<consonant ph="nn" ctype="n" cplace="a" cvox="+" long="+" /> <!-- nasale alveolare [nn], [nː] -->
+	<consonant ph="N" ctype="n" cplace="p" cvox="+" long="-" /> <!-- nasale	palatale [ɲ], [ɲɲ], [ɲː] -->
+
+	<!-- Stop consonants -->
+	<consonant ph="p" ctype="s" cplace="b" cvox="-" long="-" /> <!-- oclusiva bilabiale [p] -->
+	<consonant ph="b" ctype="s" cplace="b" cvox="+" long="-" /> <!-- oclusiva bilabiale [b] -->
+	<consonant ph="bb" ctype="s" cplace="b" cvox="+" long="+" /> <!-- oclusiva bilabiale [bb], [bː] -->
+	<consonant ph="t" ctype="s" cplace="d" cvox="-" long="-" /> <!-- oclusiva dentale [t] -->
+	<consonant ph="d" ctype="s" cplace="d" cvox="+" long="-" /> <!-- oclusiva dentale [d] -->
+	<consonant ph="dd" ctype="s" cplace="d" cvox="+" long="+" /> <!-- oclusiva dentale [dd], dː] -->
+	<consonant ph="D" ctype="s" cplace="a" cvox="+" long="-" /> <!-- oclusiva postalveolare [ɖ] -->
+	<consonant ph="DD" ctype="s" cplace="a" cvox="+" long="+" /> <!-- oclusiva postalveolare [ɖɖ], [ɖː] -->
+	<consonant ph="k" ctype="s" cplace="v" cvox="-" long="-" /> <!-- oclusiva velare [k] -->
+	<consonant ph="g" ctype="s" cplace="v" cvox="+" long="-" /> <!-- oclusiva velare [ɡ] -->
+
+	<!-- Fricative consonants -->
+	<consonant ph="gh" ctype="f" cplace="v" cvox="+" long="-" /> <!-- custritiva velare [ɣ] -->
+	<consonant ph="f" ctype="f" cplace="l" cvox="-" long="-" /> <!-- custritiva labiodentale [f] -->
+	<consonant ph="v" ctype="f" cplace="l" cvox="+" long="-" /> <!-- custritiva labiodentale [v] -->
+	<consonant ph="s" ctype="f" cplace="a" cvox="-" long="-" /> <!-- custritiva alveolare [s], [s̙] -->
+	<consonant ph="z" ctype="f" cplace="a" cvox="+" long="-" /> <!-- custritiva alveolare [z], [z̙] -->
+	<consonant ph="ss" ctype="f" cplace="a" cvox="-" long="+" /> <!-- custritiva alveolare [ss], [sː] -->
+	<consonant ph="S" ctype="f" cplace="p" cvox="-" long="-" /> <!-- custritiva postalveopalatale [ʃ], [ʃʃ], [ʃː] -->
+	<consonant ph="x" ctype="f" cplace="p" cvox="+" long="-" /> <!-- custritiva postalveopalatale [ʒ] -->
+	<consonant ph="w" ctype="r" cplace="v" cvox="+" long="-" /> <!-- aprossimante velare [w]-->
+
+	<!-- Affricative consonants -->
+	<consonant ph="ts" ctype="a" cplace="d" cvox="-" long="-" /> <!-- oclusiva+custritiva dentale+alveolare [ts], [ʦ] -->
+	<consonant ph="dz" ctype="a" cplace="d" cvox="+" long="-" /> <!-- oclusiva+custritiva dentale+alveolare [dz], [ʣ] -->
+	<consonant ph="C" ctype="a" cplace="p" cvox="-" long="-" /> <!-- oclucustritiva postalveopalatale [ʧ] -->
+	<consonant ph="G" ctype="a" cplace="p" cvox="+" long="-" /> <!-- oclucustritiva postalveopalatale [ʤ] -->
+
+	<!-- Liquid consonants -->
+	<consonant ph="r" ctype="l" cplace="a" cvox="+" long="-" /> <!-- vibratu alveolare [ɾ] -->
+	<consonant ph="R" ctype="l" cplace="a" cvox="+" long="-" /> <!-- vibrante alveolare [r] -->
+	<consonant ph="l" ctype="l" cplace="a" cvox="+" long="-" /> <!-- laterale alveolare [l], [l̪] -->
+	<consonant ph="ll" ctype="l" cplace="a" cvox="+" long="+" /> <!-- laterale alveolare [ll], [lː] -->
+
+	<!-- Approximant consonants (semivowels) -->
+	<consonant ph="bh" ctype="r" cplace="b" cvox="+" long="-" /> <!-- aprossimante bilabiale [β̞ ], [β] -->
+	<consonant ph="dh" ctype="r" cplace="d" cvox="+" long="-" /> <!-- aprossimante dentale [ð̞], [δ] -->
+	<consonant ph="j" ctype="r" cplace="p" cvox="+" long="-" /> <!-- aprossimante palatale [j] -->
+
+</allophones>
